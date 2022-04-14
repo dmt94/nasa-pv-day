@@ -3,7 +3,7 @@
   padding: 0;
 }
 .overlay {
-  background-color: rgba(255, 249, 232, 0.188);
+  background-color: rgba(0, 0, 0, 0.92);
   opacity: 0.7;
   box-shadow: rgba(114, 109, 90, 0.25) 10px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   width: 390px;
@@ -24,7 +24,6 @@ html {
 
 img {
   width: 300px;
-  height: 100px;
 }
 
 iframe {
