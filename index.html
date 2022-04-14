@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wonders</title>
+  
+  <link rel="stylesheet"
+    href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script>
+    $(function () {
+      $("#datepicker").datepicker({
+        changeMonth: true,
+        changeYear: true
+      });
+    });
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="overlay">
+      <nav class="top-nav">
+        <div class="input anime__animated animate__zoomIn animate__infinite">
+          <div
+            class="blur animate__animated animate__heartBeat animate__infinite">
+            <span class="blur-text"></span>
+          </div>
+          <input type="text" id="datepicker" placeholder="click & pick">
+        </div>
+        <div class="btn">
+        <button type="button" name="button">Show Wonder</button>
+      </div>
+      </nav>
+      <div class="phrase">
+        <h1>NASA</h1>
+        <span class="advice">You are part of Infinity.</span><span>Keep expanding and exploring.</span>
+      </div>
+      <div class="info-box">
+        <h3 class="about animate__headShake animate__animated animate__infinite">About >></h3>
+        <div class="info-par">
+          <p class="info"></p>
+        </div>
+      </div>
+     
+        <!--end of box-->
+      </div>
+      <!--end of container-->
+    </div>
+    <div class="container">
+      <div class="box">
+        <div id="box-2" class="animate__animated animate__fadeInDown animate__repeat-1">
+          <img class="" src="" alt="">
+          <iframe src="" frameborder="0"></iframe>
+        </div>
+      </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
